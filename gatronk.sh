@@ -113,7 +113,7 @@ const sendShieldedTransaction = async (signer, destination, data, value) => {
 };
 
 async function main() {
-  const contractAddress = "0xf84Df872D385997aBc28E3f07A2E3cd707c9698a";
+  const contractAddress = "0xf84Df872D385997aBc28E3f07A2Egit add . && git commit -m "feat: initiated the project" && git push origin main3cd707c9698a";
   const [signer] = await hre.ethers.getSigners();
   const contractFactory = await hre.ethers.getContractFactory("Swisstronik");
   const contract = contractFactory.attach(contractAddress);
